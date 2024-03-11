@@ -1,0 +1,278 @@
+/* App.css */
+
+/* Estilos generales */
+body {
+  background-color: #F2FCFB;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+/* Estilos para el encabezado */
+.Header {
+  background-color:  #000000;
+  color:rgb(255, 255, 255);
+  padding: 20px;
+
+}
+p{
+font-size: 20px;
+}
+/* Contenedor principal del encabezado */
+.HeaderContent {
+  display: flex; /* Establece la disposición en línea de los elementos */
+  align-items: center; /* Alinea verticalmente los elementos en el centro */
+}
+
+/* Estilos para el logotipo */
+.Logo img {
+  width: 80px; /* Ajusta el tamaño del logo según sea necesario */
+  margin-right: 10px; /* Agrega espacio entre el icono y el texto del título */
+}
+.titulo img{
+  width: 500px;
+}
+
+.Logo h1 {
+  margin: 0; /* Elimina el margen superior e inferior del título */
+  display: inline; /* Asegura que el título se muestre en línea */
+}
+
+/* Estilos para los íconos de redes sociales */
+.Social a {
+  margin-right: 10px; /* Agrega espacio entre los íconos de redes sociales */
+  color: #ffffff; /* Cambia el color de los iconos de redes sociales a azul */
+  
+}
+.Social {
+  margin-top: 40px; /* Separación de los iconos de redes sociales del título */
+  margin-left: 70px; /* Agrega espacio entre el icono y el texto del título */
+
+}
+
+/* Estilos para la información de contacto */
+.Contact {
+  margin-left: auto; /* Empuja los números de ventas hacia la derecha */
+}
+
+
+/* Estilos para la información de contacto */
+.Contact {
+  margin-left: auto; /* Empuja la información de contacto hacia la derecha */
+}
+
+.Contact p {
+  margin: 0 10px;
+}
+
+/* Estilos para la barra de navegación */
+.NavBar {
+  background-color: #028A83;
+  color: white;
+  padding: 20px 0;
+}
+
+.NavBar button {
+  background-color: #028A83;
+  border: none;
+  color: rgb(0, 0, 0);
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+/* Estilos para el carrusel */
+.Carrusel {
+  margin-top: 20px;
+}
+
+.Carrusel img {
+  width: 100%;
+}
+
+/* Estilos para el contenido */
+.Content {
+  padding: 20px;
+  background-color: #C5E4E7;
+  margin-top: 20px;
+}
+
+.Content h2 {
+  color: #000000;
+}
+
+.Content p {
+  color: #000000;
+}
+
+/* Estilos para el pie de página */
+.Footer {
+  background-color: #000000;
+  color: white;
+  padding: 5px;
+  font-size: 10px;
+
+}
+
+.Footer a {
+  color: white;
+  margin-right: 10px;
+}
+
+
+/* Pricing.css */
+.SectionTitle {
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.PricingPlans {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Plan {
+  width: 30%;
+  padding: 15px;
+  background-color: #FBBF00;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.PlanTitle {
+  font-size: 20px;
+  color: #000000;
+}
+
+.PlanDetail {
+  margin: 10px 0;
+  color: #000000;
+}
+
+.PlanPrice {
+  font-size: 18px;
+  color: #007bff;
+  font-weight: bold;
+}
+
+
+/* ContactForm.css */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
+
+button.submit-button {
+  padding: 10px 20px;
+  background-color: #028A83;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.submit-button:hover {
+  background-color: #ffc107;
+}
+
+/* services  */
+.services {
+  display: flex;
+  justify-content: space-between;
+  background-color: #028a839d;
+
+}
+.Services {
+  text-align: justify;
+}
+
+.service {
+  flex: 1;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #028a839d;
+  text-align: justify;
+
+}
+
+.service-content {
+  margin-top: 10px;
+  text-align: justify;
+  text-align: justify;
+
+}
+
+.service-title {
+  font-size: 18px;
+  color: #333;
+  text-align: justify;
+
+}
+
+.service-description {
+  font-size: 14px;
+  color: #666;
+  text-align: justify;
+
+}
+
+
+/* Testimonials.css */
+
+.testimonials {
+  padding: 20px;
+}
+
+.testimonial-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.testimonial-card {
+  width: 30%;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.user {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.rating {
+  color: #ffc107;
+  margin-bottom: 10px;
+}
+
+.review {
+  text-align: justify;
+}
